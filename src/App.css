@@ -1,0 +1,12 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #455a64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}

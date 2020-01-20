@@ -1,0 +1,10 @@
+.list {
+  margin: 20px 0;
+  height: 60vh;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

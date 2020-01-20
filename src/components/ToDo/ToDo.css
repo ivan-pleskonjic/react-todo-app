@@ -1,0 +1,27 @@
+.todo {
+  border: 1px solid;
+  margin: 0.5rem 0;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1px solid #373d58;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check {
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+
+.check:hover, .remove:hover {
+  cursor: pointer;
+}
+
+.name {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
