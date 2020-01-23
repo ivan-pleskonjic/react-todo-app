@@ -19,6 +19,9 @@ export class AddToDo extends React.Component {
   }
 
   handleAddClick(e) {
+    if (this.state.name === '') {
+      return;
+    }
     this.props.handleAddClick(this.state.name)
     this.setState({name: ''});
   }
